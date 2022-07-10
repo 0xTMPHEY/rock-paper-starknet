@@ -1,0 +1,24 @@
+:root {
+    --cultured: #F4F4F6;
+    --platinum: #E5E5E5;
+    --light-gray: #D1D5DE;
+    --gunmetal: #292F36;
+    --gunmetal-secondary: #292f36b0;
+    --gunmetal-tetriary: #292f3680;
+    --orange-web: #cc830e;
+    --charcoal: #1e2a36;
+    --green: #08a248;
+    --red: #E54F6D;
+}
+
+body {
+    width: 100%;
+    font-family: 'IBM Plex Sans';
+    background-color: var(--charcoal);
+    color: var(--platinum);
+    perspective: 500px;
+}
+
+.app {
+    width: 100%;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "rock-paper-scissors",
+  "source": "src/index.html",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.4.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@starknet-react/core": "^0.11.0",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.7.0",
+    "axios": "^0.26.1",
+    "get-starknet": "^1.4.1",
+    "localtunnel": "^2.0.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "recoil": "^0.7.1",
+    "starknet": "^3.9.0"
+  }
+}

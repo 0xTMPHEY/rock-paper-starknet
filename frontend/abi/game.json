@@ -1,0 +1,50 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "chances_address",
+                "type": "felt"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "name": "move",
+                "type": "felt"
+            }
+        ],
+        "name": "play",
+        "outputs": [
+            {
+                "name": "player_move",
+                "type": "felt"
+            },
+            {
+                "name": "npc_move",
+                "type": "felt"
+            },
+            {
+                "name": "player_won",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "generate_npc_move",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
